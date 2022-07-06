@@ -1,0 +1,205 @@
+{
+  "intents": [
+    {
+      "tag": "hello",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Whats up",
+        "Hello"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Cya",
+        "See you later",
+        "Goodbye",
+        "Have a good day",
+        "bye",
+        "later"
+      ],
+      "responses": [
+        "Goodbye!",
+        "Talk to you later.",
+        "See you again!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name",
+        "What should I call you",
+        "whats your name?",
+        "Who are you"
+      ],
+      "responses": [
+        "I'm Webby, you personal training bot for software development."
+      ]
+    },
+    {
+      "tag": "principles",
+      "patterns": [
+        "What are design principles",
+        "software design principles"
+      ],
+      "responses": [
+        "Software design principles are a set of guidelines that helps developers to make a good system design. The most important principle is the SOLID principle."
+      ]
+    },
+    {
+      "tag": "patterns",
+      "patterns": [
+        "What are design patterns",
+        "software design patterns"
+      ],
+      "responses": [
+        "In software engineering, a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design."
+      ]
+    },
+    {
+      "tag": "frontend",
+      "patterns": [
+        "What is frontend development",
+        "front end",
+        "front-end"
+      ],
+      "responses": [
+        "Front End development is a style of computer programming that focuses on the coding and creation of elements and features of a website that will then be seen by the user."
+      ]
+    },
+    {
+      "tag": "backend",
+      "patterns": [
+        "What is backend development",
+        "back end",
+        "back-end"
+      ],
+      "responses": [
+        "Back End development is a style of computer programming that focuses on building and maintaining the mechanisms that process data and perform actions on websites."
+      ]
+    },
+    {
+      "tag": "fullstack",
+      "patterns": [
+        "What is fullstack development",
+        "full stack",
+        "full-stack"
+      ],
+      "responses": [
+        "Full Stack development refers to the development of both front end(client side) and back end(server side) portions of web application."
+      ]
+    },
+    {
+      "tag": "backend_books",
+      "patterns": [
+        "Can you recommend some books on backend development",
+        "Back end books",
+        "books for back-end",
+        "What books can i use to learn backend"
+      ],
+      "responses": [
+        "1. The Joy of PHP: A Beginner's Guide to Programming Interactive Web Applications with PHP and mySQL\n2. PHP & MySQL: Server-side Web Development\n3. Beginning Node.js"
+      ]
+    },
+    {
+      "tag": "frontend_books",
+      "patterns": [
+        "Can you recommend some books on frontend development",
+        "front end books",
+        "books for front-end",
+        "What books can i use to learn backend"
+      ],
+      "responses": [
+        "I recommend you read these books:\n\n1. HTML and CSS: Design and build websites, by Jon Duckett\n2. JavaScript and JQuery: Interactive Front-End Web Development, by Jon Duckett\n3. The Road to React: Your journey to master React.js in JavaScript"
+      ]
+    },
+    {
+      "tag": "coding_skills",
+      "patterns": [
+        "How can I improve my coding skills?",
+        "How can I improve my coding skills?",
+        "How can I up my coding game",
+        "can you recommend me any books to improve my programming skills?"
+      ],
+      "responses": [
+        "I would advise you to learn about the following topics:\n\n1. Design Principles and Design Patterns, I recommend these books:\n\ta) Head First Design Patterns: A Brain-Friendly Guide\n\tb) Design Patterns: Elements of Reusable Object-Oriented Software\n2. Craftsmanship, I strongly recommend this book:\n\t   Clean Code: A Handbook of Agile Software Craftsmanship\n3. Data Structures and Algorithms, I recommend these books\n\ta) The Algorithm Design Manual\n\tb) Algorithms by Robert Sedgewick & Kevin Wayne"
+      ]
+    },
+    {
+      "tag": "fullstack_books",
+      "patterns": [
+        "Can you recommend some books on fullstack development",
+        "full stack books",
+        "books for full-stack",
+        "What books can i use to learn fullstack"
+      ],
+      "responses": [
+        "I recommend you read these books:\n\t1. Full-Stack React Projects: Learn MERN stack development by building modern web apps using MongoDB, Express, React, and Node.js\n\t2. Hands-On Full Stack Development with Spring Boot 2 and React: Build modern and scalable full stack applications using Spring Framework 5 and React with Hooks\n\t3. Quick Start Full Stack Web Development: Build Secure Asynchronous Single-Page Apps with Flask, React, and PostgreSQL\n\t4. Full-Stack Vue.js 2 and Laravel 5: Bring the frontend and backend together with Vue, Vuex, and Laravel"
+      ]
+    },
+    {
+      "tag": "web_development",
+      "patterns": [
+        "What is web development",
+        "web application development"
+      ],
+      "responses": [
+        "Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser."
+      ]
+    },
+    {
+      "tag": "learn_web_development",
+      "patterns": [
+        "How can I learn web development?"
+      ],
+      "responses": [
+        "To learn about development you can choose to learn back end development, front end development, or both (full stack development)"
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "What is programming"
+      ],
+      "responses": [
+        "Programming is the process of creating a set of instructions that tell a computer how to perform a task."
+      ]
+    },
+    {
+      "tag": "learn_programming",
+      "patterns": [
+        "How do I become a programmer",
+        "How to learn programming"
+      ],
+      "responses": [
+        "To learn programming I recommend that you first choose a language based on what you want to pursue and stick with it until you master it. Here are the following options:\n\t1.Java - mainly used for enterprise application development, android application development and big-data techonlogies\n\t2.Python - mainly used for AI, machine learning, data science\n\t3.Javascript - used for web development and games that run on the web\n\t4.C# - mainly used for web development, desktop application development and game-development\n\t5.PHP - used for web development\n\t6.C++ - used for embedded systems and game development"
+      ]
+    },
+    {
+      "tag": "database",
+      "patterns": [
+        "What is a database",
+        "How do I learn database"
+      ],
+      "responses": [
+        "A database is an organized collection of structured information, or data, typically stored electronically in a computer system."
+      ]
+    },
+    {
+      "tag": "learn_database",
+      "patterns": [
+        "How do I learn database",
+        "How can i become a database developer",
+        "How can i become a database administrator"
+      ],
+      "responses": [
+        "I advise you to learn the following topics:\n\n1. RDBMS(Relational Database Management Systems) terms and concepts\n2. SQL(Structured Query Language)"
+      ]
+    }
+  ]
+}

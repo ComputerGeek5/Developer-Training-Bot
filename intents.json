@@ -103,7 +103,7 @@
         "What books can i use to learn backend"
       ],
       "responses": [
-        "1. The Joy of PHP: A Beginner's Guide to Programming Interactive Web Applications with PHP and mySQL\n2. PHP & MySQL: Server-side Web Development\n3. Beginning Node.js"
+        "I recommend you read these books:\n\n1. The Joy of PHP: A Beginner's Guide to Programming Interactive Web Applications with PHP and mySQL\n2. PHP & MySQL: Server-side Web Development\n3. Beginning Node.js"
       ]
     },
     {
@@ -112,7 +112,7 @@
         "Can you recommend some books on frontend development",
         "front end books",
         "books for front-end",
-        "What books can i use to learn backend"
+        "What books can i use to learn frontend"
       ],
       "responses": [
         "I recommend you read these books:\n\n1. HTML and CSS: Design and build websites, by Jon Duckett\n2. JavaScript and JQuery: Interactive Front-End Web Development, by Jon Duckett\n3. The Road to React: Your journey to master React.js in JavaScript"
@@ -121,7 +121,6 @@
     {
       "tag": "coding_skills",
       "patterns": [
-        "How can I improve my coding skills?",
         "How can I improve my coding skills?",
         "How can I up my coding game",
         "can you recommend me any books to improve my programming skills?"
@@ -174,6 +173,7 @@
       "tag": "learn_programming",
       "patterns": [
         "How do I become a programmer",
+        "How can i learn programming",
         "How to learn programming"
       ],
       "responses": [
@@ -183,8 +183,7 @@
     {
       "tag": "database",
       "patterns": [
-        "What is a database",
-        "How do I learn database"
+        "What is a database"
       ],
       "responses": [
         "A database is an organized collection of structured information, or data, typically stored electronically in a computer system."

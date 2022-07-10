@@ -1,6 +1,4 @@
 import discord
-import os
-from dotenv import load_dotenv
 import tflearn
 import tensorflow
 import pickle
@@ -10,8 +8,6 @@ import nltk
 nltk.download('punkt')
 from nltk.stem.lancaster import LancasterStemmer
 import numpy
-from os import environ
-from flask import Flask
 
 # Loading trained data
 with open('intents.json') as intents_file:
